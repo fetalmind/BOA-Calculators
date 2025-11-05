@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assisting Tools Dashboard</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #74ABE2, #5563DE);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      width: 90%;
+      max-width: 900px;
+    }
+    .tool-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .tool-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #fff;
+      color: #5563DE;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background 0.3s, color 0.3s;
+    }
+    a.button:hover {
+      background: #5563DE;
+      color: #fff;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <h1>Assisting Tools Dashboard</h1>
+  <div class="container">
+    <div class="tool-card">
+      <h2>Client Portfolio Review</h2>
+      <p>Analyze and review client portfolios efficiently.</p>
+      <a href="https://provestor.my.canva.site/client-portfolio-review" class="button" target="_blank">Open Tool</a>
+    </div>
+    <div class="tool-card">
+      <h2>Client Portfolio Allocation</h2>
+      <p>Manage and allocate assets across client portfolios.</p>
+      <a href="https://provestor.my.canva.site/client-portfolio-allocation" class="button" target="_blank">Open Tool</a>
+    </div>
+    <div class="tool-card">
+      <h2>BOA FPM Calculator</h2>
+      <p>Calculate FPM for BOA clients with precision.</p>
+      <a href="https://provestor.my.canva.site/boa-fpm-calculator" class="button" target="_blank">Open Tool</a>
+    </div>
+    <div class="tool-card">
+      <h2>FPM Mortgage Calculator</h2>
+      <p>Estimate mortgage plans and financial impacts.</p>
+      <a href="https://provestor.my.canva.site/fpm-mortgage-calculator" class="button" target="_blank">Open Tool</a>
+    </div>
+    <div class="tool-card">
+      <h2>FPM Hire Purchase</h2>
+      <p>Assess hire purchase options and repayment details.</p>
+      <a href="https://provestor.my.canva.site/fpm-hire-purchase" class="button" target="_blank">Open Tool</a>
+    </div>
+  </div>
+  <footer>
+    © 2025 Provestor | All rights reserved.
+  </footer>
+</body>
+</html>
